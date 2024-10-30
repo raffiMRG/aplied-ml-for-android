@@ -5,12 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import com.dicoding.asclepius.R
 import com.dicoding.asclepius.databinding.ActivityResultBinding
 import com.dicoding.asclepius.helper.ImageClassifierHelper
 import org.tensorflow.lite.task.vision.classifier.Classifications
 import java.text.NumberFormat
-import java.util.concurrent.Executors
 
 class ResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivityResultBinding
@@ -72,7 +70,6 @@ class ResultActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_IMAGE_URI = "extra_image_uri"
-        const val EXTRA_RESULT = "extra_result"
     }
 
 }

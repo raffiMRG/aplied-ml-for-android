@@ -1,6 +1,5 @@
 package com.dicoding.asclepius.view
 
-import android.Manifest
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +8,6 @@ import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
-import com.dicoding.asclepius.R
 import com.dicoding.asclepius.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -38,15 +36,12 @@ class MainActivity : AppCompatActivity() {
         if (uri != null) {
             currentImageUri = uri
             showImage()
-        } else {
-            Log.d("Photo Picker", "No media selected")
         }
     }
 
     private fun showImage() {
         // TODO: Menampilkan gambar sesuai Gallery yang dipilih.
         currentImageUri?.let {
-            Log.d("Image URI", "showImage: $it")
             binding.previewImageView.setImageURI(it)
         }
     }
