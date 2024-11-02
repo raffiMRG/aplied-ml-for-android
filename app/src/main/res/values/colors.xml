@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+
+    <color name="light_primary_variant">#AB886D</color>
+    <color name="light_primary">#493628</color>
+    <color name="light_on_primary">#E4E0E1</color>
+
+    <color name="night_primary_variant">#493628</color>
+    <color name="night_primary">#D6C0B3</color>
+    <color name="night_on_primary">#E4E0E1</color>
+</resources>

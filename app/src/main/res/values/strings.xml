@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="convert_image_failure">Gagal Mengubah Gambar Menjadi Bitmap</string>
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="refrensi">Refrensi</string>
+    <string name="title_example">Its Just Title Example</string>
+    <string name="description_example">Its just example of description and try to make more longer so we can read more line in the description session, sori tipo dikit ga ngaruh</string>
+    <string name="message">message</string>
+
+</resources>
